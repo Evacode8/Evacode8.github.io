@@ -228,7 +228,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 3000px;
+    height: 8000px;
     position: absolute;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
@@ -1175,5 +1175,619 @@ i{
   }
 
   
+
+
+
+.ml14 {
+    font-weight: 100;
+    font-size: 3.2em;
+    color: #fff;
+    justify-content: center;
+    font-family: 'Lexend Deca', sans-serif;
+    align-items: center;
+    position: relative;
+    margin: 100px;
+    padding: 30px;
+
+  
+
+    
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    top: 40px;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #f1f1ee;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+  
+
+.Galerie {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 1600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+}
+.Galerie .photos{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    padding: 40px;
+    background-color:rgb(238, 151, 45, 0.93);
+    
+    
+   
+}
+.photos img{
+    
+    top: 0px;
+    width: 380px;
+    height: 275px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 20px;
+    
+    
+
+
+}
+.Galerie .photos :hover{
+   
+ 
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+@media screen  and (max-width: 900px){
+   
+
+    .Galerie{
+        height: 3500px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body {
+        background: #ffffff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 4000px;
+        background: linear-gradient(90deg, rgb(13, 13, 72), blue);
+       
+      }
+
+      .Galerie .photos{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: auto;
+        padding: 40px;
+        background-color:rgb(238, 151, 45, 0.93);
+        
+        
+       
+    }
+
+      .photos img{
+    
+        top: 0px;
+        width: 380px;
+        height: 275px;
+        padding: 15px;
+        margin: 0;
+        border-radius: 25px;
+        
+        
+    
+    
+    }
+    
+        
+      }
+
+
+
+
+
+#flexContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    position: relative;
+    border-radius: 30px;
+    transition: translateX(-300px);
+    transition-duration: 7ms;
+    transition: all ease-in-out;
+    top: 300px;
+    
+
+    
+
+
+    
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 580px;
+    top: 0px;
+    padding: 10px;
+    transition: translateX(-300px);
+    transition-duration: 7ms;
+    transition: all ease-in-out;
+
+   
+}
+
+
+.threeCards{
+    width: 300px;
+    height: 500px;
+    transition: 0.2 ease-in;
+    transition: all 0.2s ease-in-out;
+    top: 0px;
+    margin: 15px;
+    
+    
+}
+
+
+ 
+
+
+
+
+.threeCards:hover {
+    transform: scale(0.9);
+}
+.threeCards .header:hover{
+    height: 220px;
+    width: 300px;
+    position: relative;
+    background: rgba(213, 188, 0, 0.93);
+    transition: 0.2s;
+
+}
+.header1{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    background: rgba(0, 96, 213, 0.93);
+
+}
+.header{
+    height: 220px;
+    width: 300px;
+    top: 0;
+    position: relative;
+    background: rgba(8, 117, 171, 0.889);
+    border-radius: 10px;
+}
+.header h2{
+    margin: 0;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+#spanPrix{
+    font-size: 30px;
+}
+.price{
+    height: 100px;
+    width: 300px;
+    background: rgb(0, 0, 0);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    position: absolute;
+    top:0;
+}
+
+.details{
+    background: rgb(254, 255, 254);
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Nanum Brush Script', cursive;
+    transition: all 0.1s ease-in;
+    font-size: 30px;
+    border-radius: 5px;
+    height: 60px;
+}
+#btn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+
+#btn a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    height: 0px;
+    margin: auto;
+    padding: 0px;
+    transition: 1.5s;
+   
+}
+span{
+    display: inline-block;
+}
+
+#btn a:hover{
+    color: #d88227;
+    font-size: 35px;
+
+}
+.header p{
+    font-family: 'Nanum Brush Script', cursive; 
+    font-size: 28px;
+    top: 0;
+    margin: 1px;
+}
+
+
+.details:hover{
+    background: rgba(207, 211, 214, 0.944);
+}
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 900px;
+    top: 100px;
+    margin: auto;
+   
+   
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .swiper-slide h1{
+    font-family: 'Lexend Deca', sans-serif;
+    height: 65px;
+    color: #dbd9d6;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 0px;
+    
+  }
+
+  
+.swiper-slide .swiper-button-next{
+    color: #000000;
+    margin: 20px;
+    padding-right: 0px;
+    
+
+  
+
+
+}
+.swiper-button-next{
+    width: 300px;
+    height: 300px;
+}
+.swiper-slide .swiper-button-prev{
+    color: #000000;
+    margin: 20px;
+    
+}
+.flexContainer .threeCards{
+    border-radius: 20px;
+    padding: 15px;
+    margin: 30px;
+  
+    
+}
+
+
+
+
+
+@media  screen and (max-width:1000px) {
+
+
+   
+    .flexContainer{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: fit-content;
+        top: 0px;
+        padding: 0px;
+        transition: translateX(-300px);
+        transition-duration: 7ms;
+        transition: all ease-in-out;
+      
+    
+       
+    }
+    
+    
+    .threeCards{
+        width: 200px;
+        height: 400px;
+        transition: 0.2 ease-in;
+        transition: all 0.2s ease-in-out;
+        top: 0px;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    
+
+    
+    .threeCards:hover {
+        transform: scale(1.3);
+    }
+    .threeCards .header:hover{
+        height: 130px;
+        width: 200px;
+        position: relative;
+        background: rgba(213, 188, 0, 0.93);
+        transition: 0.3s;
+    
+    }
+   
+    .header{
+        height: 130px;
+        width: 200px;
+        top: 0;
+        position: relative;
+        background: rgba(8, 117, 171, 0.889);
+        border-radius: 5px;
+    }
+    .header h2{
+        margin: 0;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    #spanPrix{
+        font-size: 15px;
+    }
+    .price{
+        height: 50px;
+        width: 200px;
+        background: rgba(0, 0, 0, 0.897);
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        position: absolute;
+        top:0;
+    }
+    
+    .details{
+        background: rgb(254, 255, 254);
+        height: 25px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+        font-family: 'Nanum Brush Script', cursive;
+        transition: all 0.1s ease-in;
+        font-size: 19px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    #btn{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    
+    }
+    
+    #btn a{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        top: 10px;
+        font-family: 'Lexend Deca', sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        height: 0px;
+        margin: auto;
+        padding: 0px;
+        transition: 1.5s;
+       
+    }
+    span{
+        display: inline-block;
+    }
+    
+    #btn a:hover{
+        color: #d88227;
+        font-size: 16px;
+    
+    }
+    .header p{
+        font-family: 'Nanum Brush Script', cursive; 
+        font-size: 18px;
+        top: 0;
+        margin: 1px;
+    }
+    
+    
+    .details:hover{
+        background: rgba(207, 211, 214, 0.944);
+    }
+    
+    
+
+    .swiper {
+        
+        justify-content: center;
+        height: 100vh;
+      }
+      .swiper-slide h1{
+        font-family: 'Lexend Deca', sans-serif;
+        height: 30px;
+        color: #dbd9d6;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        padding: 0px;
+        
+      }
+    
+      
+    .swiper-slide .swiper-button-next{
+        color: #000000;
+        margin: 0;
+        padding-right: 0px;
+        align-items: center;
+        justify-content: center;
+        top: 30%;
+        margin: 5px;
+       
+    }
+        
+    .swiper {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        padding: 0;
+       
+       
+      }
+    
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+       height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+     
+      .swiper-slide .swiper-button-prev{
+        
+        display: none;
+        
+        
+    }
+     
+    .header h2{
+        margin: 0;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 18px;
+
+    }
+
+    .flexContainer .threeCards{
+        position: relative;
+        padding: 10px;
+        margin: 10px;
+        top: 40px;
+    }
+
+    }
+
+
+
+
+
+
+
+
 
 
