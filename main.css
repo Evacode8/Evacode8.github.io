@@ -756,7 +756,7 @@ h1{
     height: 500px;
     transition: 0.2 ease-in;
     transition: all 0.2s ease-in-out;
-    top: 100px;
+    top: 1400px;
     margin: 10px;
     
     
@@ -957,7 +957,7 @@ span{
         align-items: center;
         margin: auto;
         height: fit-content;
-        top: 400px;
+        top: 600px;
         padding: 0px;
         transition: translateX(-300px);
         transition-duration: 7ms;
@@ -973,7 +973,7 @@ span{
         height: 400px;
         transition: 0.2 ease-in;
         transition: all 0.2s ease-in-out;
-        top: 0px;
+        top: 120px;
         margin: 0;
         padding: 0;
         
