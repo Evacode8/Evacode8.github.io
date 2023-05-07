@@ -228,7 +228,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 4000px;
+    height: 3000px;
     position: absolute;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
@@ -245,7 +245,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 8000px;
+    height: 4000px;
     position: absolute;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
@@ -253,7 +253,7 @@ body{
     background-size: cover;
     background-attachment:fixed;
     background-position: center;
-    color: black;
+    color: #00000;
 	}
 }
 
