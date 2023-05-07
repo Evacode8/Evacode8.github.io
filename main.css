@@ -228,7 +228,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 5000px;
+    height: 7000px;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
     background-repeat: no-repeat;
@@ -739,7 +739,7 @@ h1{
     align-items: center;
     margin: auto;
     height: 780px;
-    top: 600px;
+    top: 0px;
     padding: 10px;
     transition: translateX(-300px);
     transition-duration: 7ms;
@@ -1151,7 +1151,7 @@ span{
         position: relative;
         padding: 5px;
         margin: 5px;
-        top: 40px;
+        top: 0px;
     }
 
     }
@@ -1160,8 +1160,8 @@ span{
 .introform{
   position: relative;
   display: flex;
-  flex-direction: row;
-  top: 200px;
+  flex-direction: column;
+  top: 0px;
   height: 650px;
   justify-content: center;
   align-items: center;
