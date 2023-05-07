@@ -732,7 +732,7 @@ h1{
         justify-content: center;
 		align-item:center;
         height: 100vh;
-	top: 0px;
+	top: 700px;
 	    
       }
     
@@ -1249,7 +1249,6 @@ form p{
     bottom: 0;
     width:100vw;
     position: fixed;
-	  top:50%;
   }
 
 
