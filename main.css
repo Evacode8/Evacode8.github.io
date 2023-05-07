@@ -723,6 +723,7 @@ h1{
     transition: translateX(-300px);
     transition-duration: 7ms;
     transition: all ease-in-out;
+	top:400px;
     
 
     
@@ -738,7 +739,7 @@ h1{
     justify-content: center;
     align-items: center;
     margin: auto;
-    height: 780px;
+    height: 650px;
     top: 0px;
     padding: 10px;
     transition: translateX(-300px);
@@ -754,8 +755,8 @@ h1{
     height: 500px;
     transition: 0.2 ease-in;
     transition: all 0.2s ease-in-out;
-    top: 0px;
-    margin: 15px;
+    top: 100px;
+    margin: 10px;
     
     
 }
@@ -933,7 +934,7 @@ span{
     
 }
 .flexContainer .threeCards{
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 8px;
     margin: 8px;
   
