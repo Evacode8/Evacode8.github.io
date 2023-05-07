@@ -228,7 +228,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 7000px;
+    height: 6000px;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
     background-repeat: no-repeat;
@@ -244,7 +244,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 7200px;
+    height: 410px;
     position: absolute;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
@@ -295,7 +295,7 @@ align-items: center;
 .BFS img{
     border-radius: 50%;
     height: 150px;
-    padding: 30px;
+    padding: 20px;
     position: relative;
     justify-content: center;
     top: 0;
@@ -317,10 +317,10 @@ h1{
     font-family:'Nanum Brush Script', cursive;
     text-align: center;
     margin: 0;
-    padding: 20px;
-    width: 500px;
+    padding: 10px;
+    width: 600px;
     line-height: 3.5rem;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 
@@ -435,7 +435,7 @@ h1{
   
   }
   .SVG h2{
-    font-size: 80px;
+    font-size: 3.2em;
     padding:60px;
     margin: 0;
     top: 0;
@@ -460,7 +460,7 @@ h1{
     position: relative;
   }
   .services p{
-    font-size: 38px;
+    font-size: 36px;
     font-family: 'Nanum Brush Script', cursive;
     font-weight: 600;
     color: black;
@@ -487,10 +487,10 @@ h1{
 
   @media screen  and(max-width:900px){
     h1{
-        font-size: 70px;
+        font-size: 55px;
         font-family:'Nanum Brush Script', cursive;
-        font-weight: 90px;
-        color: black;
+        font-weight: 60px;
+        color: white;
         padding: 0px;
         margin: 0;
     }
@@ -548,7 +548,7 @@ h1{
   }
 
   .SVG h2{
-    font-size: 60px;
+    font-size: 45px;
     padding:40px;
     margin: 0;
     top: 0;
@@ -738,7 +738,7 @@ h1{
     transition: translateX(-300px);
     transition-duration: 7ms;
     transition: all ease-in-out;
-    top: 200px;
+    top: 400px;
     
 
     
@@ -949,8 +949,8 @@ span{
 }
 .flexContainer .threeCards{
     border-radius: 20px;
-    padding: 15px;
-    margin: 30px;
+    padding: 8px;
+    margin: 8px;
   
     
 }
@@ -1164,8 +1164,8 @@ span{
 
     .flexContainer .threeCards{
         position: relative;
-        padding: 10px;
-        margin: 10px;
+        padding: 5px;
+        margin: 5px;
         top: 40px;
     }
 
@@ -1176,7 +1176,7 @@ span{
   position: relative;
   display: flex;
   flex-direction: row;
-  top: 0px;
+  top: 100px;
   height: 700px;
   justify-content: center;
   align-items: center;
@@ -1187,7 +1187,7 @@ span{
   display: flex;
   flex-direction: column;
   top: 0px;
-  height: 1480px;
+  height: 1400px;
   padding: 0;
   margin: 0;
   }
@@ -1474,6 +1474,7 @@ form p{
     padding: 0;
     width:100vw;
     z-index:-1;
+	  top:100%;
     position:relative;
   }
 
