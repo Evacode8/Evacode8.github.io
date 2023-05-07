@@ -228,7 +228,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 4000px;
+    height: 5000px;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
     background-repeat: no-repeat;
@@ -739,7 +739,7 @@ h1{
     align-items: center;
     margin: auto;
     height: 780px;
-    top: 300px;
+    top: 600px;
     padding: 10px;
     transition: translateX(-300px);
     transition-duration: 7ms;
@@ -1161,8 +1161,8 @@ span{
   position: relative;
   display: flex;
   flex-direction: row;
-  top: 400px;
-  height: 700px;
+  top: 200px;
+  height: 650px;
   justify-content: center;
   align-items: center;
 }
