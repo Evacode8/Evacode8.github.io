@@ -228,7 +228,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 8000px;
+    height: 4000px;
     position: absolute;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
