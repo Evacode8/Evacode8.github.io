@@ -709,7 +709,42 @@ h1{
         
       }
 
+@media screen and(max-width:900px){
+	.flexContainer{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: fit-content;
+        top: 0px;
+        padding: 0;
+        transition: translateX(-300px);
+        transition-duration: 7ms;
+        transition: all ease-in-out;
+       
+    }
+	
+	.swiper {
+        
+        justify-content: center;
+        height: 100vh;
+	top: 600px;
+	    
+      }
+    
+	
+    .flexContainer .threeCards{
+        position: relative;
+        padding: 5px;
+        margin: 5px;
+        top: 200px;
+    }
 
+	
+}
 
 
 
@@ -918,7 +953,7 @@ h1{
         position: relative;
         padding: 10px;
         margin: 10px;
-        top: 20px;
+        top: 0px;
     }
 
 
@@ -991,7 +1026,7 @@ h1{
 
   width: 460px;
   height: 500px;
-  background-color: #ffffff;
+  background-color: #000000;
   border-radius: 10px;
   top: 0;
   position: relative;
@@ -999,7 +1034,7 @@ h1{
 }
 .description p{
   font-family: 'Nanum Brush Script', cursive;
-    color: #000000;
+    color: #fff;
     font-size: 30px;
     font-weight:900;
     justify-content: center;
@@ -1206,16 +1241,15 @@ form p{
   
 
   .Footer{
-    bottom: 0;
+    
     background-color: #000000;
     height: 380px;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    bottom: 0;
     width:100vw;
-    z-index:-1;
-	  top:100%;
     position:absolute;
   }
 
