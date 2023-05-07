@@ -670,7 +670,7 @@ h1{
    
 
     .Galerie{
-        height: 2400px;
+        height: 1600px;
         position: relative;
         margin: 0;
         padding: 0;
@@ -710,245 +710,7 @@ h1{
       }
 
 
-
-
-#flexContainer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: auto; 
-    position: relative;
-    border-radius: 30px;
-    transition: translateX(-300px);
-    transition-duration: 7ms;
-    transition: all ease-in-out;
-	
-    
-
-    
-
-
-    
-}
 .flexContainer{
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 650px;
-    top: 0px;
-    padding: 10px;
-    transition: translateX(-300px);
-    transition-duration: 7ms;
-    transition: all ease-in-out;
-
-   
-}
-
-
-.threeCards{
-    width: 300px;
-    height: 500px;
-    transition: 0.2 ease-in;
-    transition: all 0.2s ease-in-out;
-    top: 0px;
-    margin: 10px;
-    
-    
-}
-
-
- 
-
-
-
-
-.threeCards:hover {
-    transform: scale(0.9);
-}
-.threeCards .header:hover{
-    height: 220px;
-    width: 300px;
-    position: relative;
-    background: rgba(213, 188, 0, 0.93);
-    transition: 0.2s;
-
-}
-.header1{
-    height: 300px;
-    width: 300px;
-    position: relative;
-    background: rgba(0, 96, 213, 0.93);
-
-}
-.header{
-    height: 220px;
-    width: 300px;
-    top: 0;
-    position: relative;
-    background: rgba(8, 117, 171, 0.889);
-    border-radius: 10px;
-}
-.header h2{
-    margin: 0;
-    position: relative;
-    top: 100px;
-    text-align: center;
-    font-family: 'Lexend Deca', sans-serif;
-    
-}
-
-#spanPrix{
-    font-size: 30px;
-}
-.price{
-    height: 100px;
-    width: 300px;
-    background: rgb(0, 0, 0);
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    position: absolute;
-    top:0;
-}
-
-.details{
-    background: rgb(254, 255, 254);
-    height: 50px;
-    text-align: center;
-    line-height: 40px;
-    font-family: 'Nanum Brush Script', cursive;
-    transition: all 0.1s ease-in;
-    font-size: 30px;
-    border-radius: 5px;
-    height: 60px;
-}
-#btn{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    position: relative;
-
-}
-
-#btn a{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    top: 20px;
-    font-family: 'Lexend Deca', sans-serif;
-    color: #ffffff;
-    font-size: 30px;
-    height: 0px;
-    margin: auto;
-    padding: 0px;
-    transition: 1.5s;
-   
-}
-span{
-    display: inline-block;
-}
-
-#btn a:hover{
-    color: #d88227;
-    font-size: 35px;
-
-}
-.header p{
-    font-family: 'Nanum Brush Script', cursive; 
-    font-size: 28px;
-    top: 0;
-    margin: 1px;
-}
-
-
-.details:hover{
-    background: rgba(207, 211, 214, 0.944);
-}
-
-
-
-
-
-
-.swiper {
-    width: 100%;
-    height: 900px;
-    top: 100px;
-    margin: auto;
-   
-   
-  }
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  
-
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
-  .swiper-slide h1{
-    font-family: 'Lexend Deca', sans-serif;
-    height: 65px;
-    color: #dbd9d6;
-    font-size: 28px;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    padding: 0px;
-    
-  }
-
-  
-.swiper-slide .swiper-button-next{
-    color: #000000;
-    margin: 20px;
-    padding-right: 0px;
-    
-
-  
-
-
-}
-.swiper-button-next{
-    width: 300px;
-    height: 300px;
-}
-.swiper-slide .swiper-button-prev{
-    color: #000000;
-    margin: 20px;
-	display:none;
-    
-}
-.flexContainer .threeCards{
-    border-radius: 30px;
-    padding: 8px;
-    margin: 8px;
-  
-    
-}
-
-
-
-
-
-
-   
-    .flexContainer{
         display: flex;
         flex-direction: row;
         overflow: hidden;
@@ -1154,7 +916,12 @@ span{
         top: 40px;
     }
 
- 
+
+
+
+
+
+
 
 
 
