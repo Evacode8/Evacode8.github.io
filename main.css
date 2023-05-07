@@ -229,7 +229,7 @@ body{
     padding: 0;
     border: 0;
     position: relative;
-    height:auto;
+    height:3500px;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
     background-repeat: no-repeat;
@@ -710,6 +710,27 @@ h1{
       }
 
 
+#flexContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    position: relative;
+    border-radius: 30px;
+    transition: translateX(-300px);
+    transition-duration: 7ms;
+    transition: all ease-in-out;
+    top: 300px;
+    
+
+    
+
+
+    
+}
+
 .flexContainer{
         display: flex;
         flex-direction: row;
@@ -735,7 +756,7 @@ h1{
         height: 400px;
         transition: 0.2 ease-in;
         transition: all 0.2s ease-in-out;
-        top: 0px;
+        top: 400px;
         margin: 0;
         padding: 0;
         
@@ -930,30 +951,12 @@ h1{
   position: relative;
   display: flex;
   flex-direction: column;
-  top: 500px;
+  top: 0;
   height: 650px;
   justify-content: center;
   align-items: center;
 }
-@media screen and(max-width:900px) {
-  .introform{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  top: 0px;
-  height: 1400px;
-  padding: 0;
-  margin: 0;
-  }
-  .body{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    height: 2000px;
-    width: 100%;
-    background: linear-gradient(90deg, rgb(13, 13, 72), blue);
-    
-  }
+
  
   
 }
