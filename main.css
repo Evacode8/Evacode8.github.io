@@ -242,7 +242,7 @@ body{
 
 @media screen and (max-width:900px){
 	.body{
-		margin: 0;
+    margin: 0;
     padding: 0;
     border: 0;
     height: 8000px;
@@ -253,7 +253,7 @@ body{
     background-size: cover;
     background-attachment:fixed;
     background-position: center;
-		color: black;
+    color: black;
 	}
 }
 
@@ -307,14 +307,14 @@ h1{
     font-size: 100px;
     font-family:'Nanum Brush Script', cursive;
     font-weight: 90px;
-    color: aliceblue;
+    color: black;
     padding: 0p;
     margin: 0;
   
     
 }
 .Apropos p{
-    color: aliceblue;
+    color: black;
     font-family:'Nanum Brush Script', cursive;
     text-align: center;
     margin: 0;
@@ -491,7 +491,7 @@ h1{
         font-size: 70px;
         font-family:'Nanum Brush Script', cursive;
         font-weight: 90px;
-        color: aliceblue;
+        color: black;
         padding: 0px;
         margin: 0;
     }
@@ -565,7 +565,7 @@ h1{
     font-size: 17px;
     font-family: 'Nanum Brush Script', cursive;
     font-weight: 500;
-    color: black;
+    color: #00000;
     top: 0;
     text-align: justify;
  
@@ -681,7 +681,7 @@ h1{
     transition: cubic-bezier(0.23, 1, 0.320, 1);
 }
 
-@media screen  and (max-width: 900px){
+@media screen  and(max-width: 900px){
    
 
     .Galerie{
@@ -694,16 +694,7 @@ h1{
         align-items: center;
         text-align: center;
     }
-    body {
-        background: #ffffff;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        height: 4000px;
-        background: linear-gradient(90deg, rgb(13, 13, 72), blue);
-       
-      }
-
+   
       .Galerie .photos{
         justify-content: center;
         align-items: center;
@@ -969,7 +960,7 @@ span{
 
 
 
-@media  screen and (max-width:1000px) {
+@media  screen and(max-width:1000px) {
 
 
    
@@ -1191,7 +1182,7 @@ span{
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width:900px) {
+@media screen and(max-width:900px) {
   .introform{
   position: relative;
   display: flex;
@@ -1252,7 +1243,7 @@ span{
 }
 .intro :hover{
   background-color: #000000;
-  color: white;
+  color: #fff;
   border-radius: 20px;
   transition-duration: 1s;
 }
@@ -1354,7 +1345,7 @@ background: linear-gradient(90deg, rgb(13, 13, 72), blue);
   padding: 5px;
 }
 h3{
-  color: white;
+  color: #fff;
   font-family: 'Lexend Deca', sans-serif;
   font-size: 18px;
   padding: 0px;
@@ -1476,13 +1467,15 @@ form p{
 
   .Footer{
     bottom: 0;
-    background-color: black;
+    background-color:#0000;
     height: 380px;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
     width:100vw;
+    z-index:-1;
+    position:relative;
   }
 
 
@@ -1625,67 +1618,7 @@ i{
   
   
 
-  #cookie-popup {
-    position: fixed;
-    z-index: 9999;
-    right: 30px;
-    bottom: 30px;
-    width: 330px;
-    padding: 20px 30px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  background: rgba(0,0,0,0.85);
-    color: #eee;
-       font-family: arial;
-  
-  }
-  
-  #cookie-popup p:first-child {
-    margin: 0;
-    color: #eee;
-    font-weight: 900;
-    color: #00adef;
-  }
-  
-  #cookie-popup p:nth-child(2) {
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 25px;
-  }
-  
-  #cookie-popup .link {
-    color: #00adef;
-    text-decoration: none;
-  }
-  
-  #cookie-popup button {
-    width: 100%;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: arial;
-    padding: 8px 0;
-    
-    color: #fff;
-    background-color: #00adef;
-    
-   
-  }
-  
-  #cookie-popup button:hover {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  @media only screen and (max-width: 450px) {
-    #cookie-popup {
-      max-width: 95%;
-      right: 0;
-      bottom: 20px;
-      left: 0;
-      margin: 0 auto;
-    }
-  }
-
+ 
   
 
 
