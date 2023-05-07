@@ -736,7 +736,7 @@ img :hover{
     .Galerie{
         display: flex;
         flex-direction: column;
-        height: 550px;
+        height: 450px;
         width: 100%;
         padding: 0;
         margin: 0;
