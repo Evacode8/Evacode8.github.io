@@ -944,9 +944,7 @@ span{
 
 
 
-
-
-@media  screen and(max-width:1000px) {
+@media  screen and (max-width:800px) {
 
 
    
@@ -1151,12 +1149,15 @@ span{
 
     .flexContainer .threeCards{
         position: relative;
-        padding: 5px;
-        margin: 5px;
-        top: 0px;
+        padding: 10px;
+        margin: 10px;
+        top: 40px;
     }
 
     }
+
+
+
 
 
 .introform{
