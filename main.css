@@ -228,7 +228,8 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    height: 7000px;
+    position: relative;
+    height: 4500px;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
     background-repeat: no-repeat;
@@ -1162,7 +1163,7 @@ span{
   position: relative;
   display: flex;
   flex-direction: column;
-  top: 0px;
+  top: 500px;
   height: 650px;
   justify-content: center;
   align-items: center;
@@ -1460,7 +1461,7 @@ form p{
     padding: 0;
     width:100vw;
     z-index:-1;
-    position:relative;
+    position:absolute;
   }
 
 
