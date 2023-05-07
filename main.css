@@ -240,7 +240,22 @@ body{
 
 }
 
-
+@media screen and (max-width:900px){
+	.body{
+		margin: 0;
+    padding: 0;
+    border: 0;
+    height: 8000px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(13, 13, 72), blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+		color: black;
+	}
+}
 
 .Accueil{
     width: 100%;
@@ -1465,7 +1480,6 @@ form p{
     height: 380px;
     display: flex;
     flex-direction: column;
-    position: relative;
     margin: 0;
     padding: 0;
     width:100vw;
