@@ -710,26 +710,8 @@ h1{
       }
 
 
-#flexContainer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: auto; 
-    position: relative;
-    border-radius: 30px;
-    transition: translateX(-300px);
-    transition-duration: 7ms;
-    transition: all ease-in-out;
-    top: 300px;
-    
-
-    
 
 
-    
-}
 
 .flexContainer{
         display: flex;
@@ -740,8 +722,8 @@ h1{
         align-items: center;
         margin: auto;
         height: fit-content;
-        top: 0px;
-        padding: 0px;
+        top: 0;
+        padding: 0;
         transition: translateX(-300px);
         transition-duration: 7ms;
         transition: all ease-in-out;
@@ -756,7 +738,7 @@ h1{
         height: 400px;
         transition: 0.2 ease-in;
         transition: all 0.2s ease-in-out;
-        top: 400px;
+        top: 0;
         margin: 0;
         padding: 0;
         
@@ -869,6 +851,8 @@ h1{
         
         justify-content: center;
         height: 100vh;
+	    top: 400px;
+	    
       }
       .swiper-slide h1{
         font-family: 'Lexend Deca', sans-serif;
@@ -934,7 +918,7 @@ h1{
         position: relative;
         padding: 10px;
         margin: 10px;
-        top: 40px;
+        top: 20px;
     }
 
 
