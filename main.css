@@ -944,7 +944,7 @@ span{
 
 
 
-@media  screen and (max-width:800px) {
+
 
 
    
@@ -957,7 +957,7 @@ span{
         align-items: center;
         margin: auto;
         height: fit-content;
-        top: 0px;
+        top: 400px;
         padding: 0px;
         transition: translateX(-300px);
         transition-duration: 7ms;
@@ -1154,8 +1154,7 @@ span{
         top: 40px;
     }
 
-    }
-
+ 
 
 
 
