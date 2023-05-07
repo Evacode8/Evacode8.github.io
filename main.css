@@ -229,7 +229,7 @@ body{
     padding: 0;
     border: 0;
     position: relative;
-    height:3500px;
+    height:5000px;
     width: 100%;
     background: linear-gradient(90deg, rgb(13, 13, 72), blue);
     background-repeat: no-repeat;
@@ -730,8 +730,9 @@ h1{
 	.swiper {
         
         justify-content: center;
+		align-item:center;
         height: 100vh;
-	top: 600px;
+	top: 800px;
 	    
       }
     
@@ -1250,7 +1251,7 @@ form p{
     padding: 0;
     bottom: 0;
     width:100vw;
-    position:absolute;
+    position:relative;
   }
 
 
