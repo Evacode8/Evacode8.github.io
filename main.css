@@ -798,9 +798,10 @@ img :hover{
 
   
   .Cours{
-    height: 600px;
+    height: 400px;
     width: 100%;
     padding: 0px;
+	  top:50px;
 	  display: flex;
 	  justify-content:center;
 	  align-items:center;
@@ -826,11 +827,10 @@ img :hover{
     width: 400px;
   }
   .Cours p{
-    font-size: 25px;
-    margin: 7px;
-    padding: 5px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
     text-align: center;
-    padding:0px;
 	  color:#000000;
     line-height: 2rem;
     font-family: 'Lexend Deca', sans-serif;
@@ -847,6 +847,7 @@ img :hover{
     box-shadow: 0px 5px 10px rgba(21, 4, 1, 0.964);
     position: relative;
 	  justify-content:center;
+	  display:flex;
    
    
     
@@ -855,6 +856,7 @@ img :hover{
     top: 0px;
     padding: 0;
     margin: 0;
+	  
     font-size: 23px;
     color: rgb(255, 255, 255);
     font-family: 'Nanum Brush Script', cursive;
@@ -901,7 +903,21 @@ img :hover{
   }
   
   
-
+@media screen and(max-width:900px){
+	.Footer{
+    bottom: 0;
+    background-color: black;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width:100%;
+  }
+	
+}
+	
   .Footer{
     bottom: 0;
     background-color: black;
