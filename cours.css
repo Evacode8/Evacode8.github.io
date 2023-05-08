@@ -702,7 +702,7 @@ span{
     height: 380px;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     margin: 0;
     padding: 0;
     
