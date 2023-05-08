@@ -806,7 +806,6 @@ img :hover{
 	  align-items:center;
 	  flex-direction:column;
     position: relative;
-	   background-color: #4696e5;
 	  
    
     
@@ -820,7 +819,6 @@ img :hover{
     padding:0px;
     margin-bottom:0;
     top: 0;
-    font-weight: 700;
     color: #000000;
     font-family: 'Nanum Brush Script', cursive;
     position: relative;
@@ -843,6 +841,7 @@ img :hover{
   .container button{
     height: 50px;
     width: 250px;
+	  margin:auto;
     border-radius: 50px;
     background-color: rgb(0, 0, 0);
     box-shadow: 0px 5px 10px rgba(21, 4, 1, 0.964);
@@ -909,7 +908,7 @@ img :hover{
     height: 380px;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     margin: 0;
     padding: 0;
     width:100vw;
