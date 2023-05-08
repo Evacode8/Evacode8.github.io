@@ -353,9 +353,9 @@ body{
     height: 50px;
     text-align: center;
     line-height: 40px;
-    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Lexend Deca', sans-serif;
     transition: all 0.1s ease-in;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 5px;
     height: 60px;
 }
@@ -563,7 +563,7 @@ span{
         justify-content: center;
         align-items: center;
         line-height: 20px;
-        font-family: 'Nanum Brush Script', cursive;
+        font-family: 'Lexend Deca', sans-serif;
         transition: all 0.1s ease-in;
         font-size: 19px;
         border-radius: 5px;
