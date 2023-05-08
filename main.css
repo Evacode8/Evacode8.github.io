@@ -231,7 +231,7 @@ body{
     height: 3000px;
     position: absolute;
     width: 100%;
-    background: linear-gradient(90deg, rgb(13, 13, 72), blue);
+    background-color: #4696e5;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
