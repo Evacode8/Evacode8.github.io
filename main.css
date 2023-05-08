@@ -232,12 +232,8 @@ body{
     height: 3500px;
     position: absolute;
     width:100%;
-	
 	background-color: #4686a0;
-    color: rgba(255, 255, 255, 0.75);
-    background-image: url(images/overlay2.png), url(images/overlay3.svg), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-    background-position: top left, center center, center center;
-    background-size: auto, cover, cover;
+
     
     
 
@@ -253,14 +249,7 @@ body{
 
 		
 	background-color: #4686a0;
-    color: rgba(255, 255, 255, 0.75);
-    background-image: url(images/overlay2.png), url(images/overlay3.svg), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-    background-position: top left, center center, center center;
-    background-size: auto, cover, cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
-    background-position: center;
+    
 	}
 	
 }
