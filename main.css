@@ -203,11 +203,12 @@
   a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 19px;
     padding: 60px;
     position: relative;
     transition: ease-in;
     transition: 0.5s;
+	  right:0;
   }
   span{
     display: inline-block;
@@ -299,13 +300,13 @@ h1{
     
 }
 .Apropos p{
-    color: aliceblue;
-    font-family:'Nanum Brush Script', cursive;
+        color: #d1e5f9;
+    font-family: 'Lexend Deca', sans-serif;
     text-align: center;
     margin: 0;
     padding: 20px;
     width: 500px;
-    line-height: 3.5rem;
+    line-height: 3.2rem;
     font-size: 30px;
 }
 
