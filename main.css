@@ -232,7 +232,7 @@ body{
     height: 3500px;
     position: absolute;
     width:100%;
-	background-color: #4696e5;
+    background: linear-gradient(100deg, rgb(19, 51, 180), rgb(0, 255, 217));
 
     
     
