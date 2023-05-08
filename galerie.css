@@ -252,13 +252,11 @@
 
 
 body {
-    background: #ffffff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    
     margin: 0;
     padding: 0;
     height: 2000px;
-    
-	  background-color: #4696e5;
+    background-color: #4696e5;
    
   }
 
