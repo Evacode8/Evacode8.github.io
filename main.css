@@ -246,9 +246,8 @@ body{
     height: 3500px;
     position: absolute;
     width: 100%;
+  background: linear-gradient(100deg, rgb(19, 51, 180), rgb(0, 255, 217));
 
-		
-	background-color: #4686a0;
     
 	}
 	
