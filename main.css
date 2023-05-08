@@ -570,10 +570,11 @@ h1{
     width: 100vw;
     padding: 0;
     margin:auto;
-    background-color:rgb(238, 151, 45, 0.93);
+    background-color: linear-gradient(45deg, #b39c68, #a56365, #412e4c);
     position: relative;
     justify-content:flex-start;
     align-items: center;
+	
   
     
     
@@ -743,7 +744,7 @@ img :hover{
         width: 100%;
         padding: 0;
         margin: 0;
-        background-color:rgb(238, 151, 45, 0.93);
+        background-color: linear-gradient(45deg, #b39c68, #a56365, #412e4c);
         position: relative;
         justify-content:first baseline;
         align-items: center;
@@ -801,7 +802,8 @@ img :hover{
     height: 400px;
     width: 100%;
     padding: 0px;
-	  top:50px;
+	  top:0px;
+	  margin: auto;
 	  display: flex;
 	  justify-content:center;
 	  align-items:center;
