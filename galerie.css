@@ -257,7 +257,8 @@ body {
     margin: 0;
     padding: 0;
     height: 2000px;
-    background: linear-gradient(90deg, rgb(13, 13, 72), blue);
+    
+	  background-color: #4696e5;
    
   }
 
