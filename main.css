@@ -13,6 +13,7 @@
 html{
 	padding:0;
 	margin:0;
+}
 .container {
 	width: 100%;
 	height: 100px;
@@ -153,9 +154,7 @@ html{
 }
 
 
-.nav-bar{
-    display: none;
-}
+
 
 @media screen and (max-width:900px) {
     .nav-bar{
