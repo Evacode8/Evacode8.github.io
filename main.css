@@ -231,11 +231,11 @@ body{
     height: 3500px;
     position: absolute;
     width:100%;
-	background-color:blue;
+    background-image: linear-gradient(to right bottom, #060c4e, #101065, #1c137c, #2b1594, #3b16ac, #3433c4, #264bdc, #0062f3, #0087ff, #00a6ff, #00c1ff, #5fdafb);
 	
 }
 
-@media screen and(max-width:1200px){
+@media screen and(max-width:1000px){
 
 		body{
 		    margin: 0;
