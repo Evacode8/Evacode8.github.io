@@ -154,7 +154,7 @@
 
 
 
-@media screen and(max-width:1000px) {
+@media screen and(max-width:1000px){
     .nav-bar{
         display: block;
     } 
@@ -232,12 +232,9 @@ body{
     position: absolute;
     width:100%;
     background-image: radial-gradient(circle, #0f0f81, #0042a7, #006ac2, #0091d4, #00b7e1, #00bce4, #00c1e6, #00c6e8, #00ace3, #0092db, #0076cd, #0758b9);
-    
-    
-
 }
 
-@media screen and(max-width:1000px){
+@media screen and(max-width:1200px){
 
 		body{
 		    margin: 0;
