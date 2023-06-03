@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+	width:100%;
 }
 
 .header{
@@ -153,7 +154,7 @@
 
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
     .nav-bar{
         display: block;
     } 
@@ -228,26 +229,22 @@ body{
     padding: 0;
     border: 0;
     height: 3500px;
-    position: absolute;
+    position: relative;
     width:100%;
-
-background-color: #666;
+    background-image: radial-gradient(circle, #0f0f81, #0042a7, #006ac2, #0091d4, #00b7e1, #00bce4, #00c1e6, #00c6e8, #00ace3, #0092db, #0076cd, #0758b9);
     
     
 
 }
-@media screen and(max-width:900px){
+@media screen and(max-width:1200px){
 	.body{
-	margin: 0;
-    padding: 0;
-    border: 0;
-    height: 3500px;
-    position: absolute;
-    width: 100%;
- 
-		background-color: #666;
-
-    
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    height: 3500px;
+	    position: absolute;
+	    width: 100%;
+	    background-image: radial-gradient(circle, #0f0f81, #0042a7, #006ac2, #0091d4, #00b7e1, #00bce4, #00c1e6, #00c6e8, #00ace3, #0092db, #0076cd, #0758b9);
 	}
 	
 }
@@ -255,7 +252,7 @@ background-color: #666;
 
 .Accueil{
     width: 100%;
-    height: 750px;
+    height: 850px;
     justify-content:center;
     align-items:center;
     display: flex;
@@ -267,6 +264,35 @@ background-color: #666;
 
 
 }
+@media screen and(max-width:1200px){
+	.Accueil{
+	    width: 100%;
+	    height: 900px;
+	    justify-content:center;
+	    align-items:center;
+	    display: flex;
+	    flex-direction: row;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+ 
+
+	}
+	
+	
+	.Apropos{
+		width: 600px;
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		margin: 10px;
+		top: 0;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+	}
+}
+	
 .Apropos{
 width: 700px;
 display: flex;
@@ -463,7 +489,7 @@ h1{
     font-size: 30px;
     font-family: 'Nanum Brush Script', cursive;
     font-weight: 600;
-    color: black;
+    color: #00000;
     top: 0;
     text-align: center;
  
@@ -485,29 +511,29 @@ h1{
  
 
 
-  @media screen  and (max-width:900px){
+  @media screen  and(max-width:1200px){
     h1{
-        font-size: 80px;
+        font-size: 90px;
         font-family:'Nanum Brush Script', cursive;
         font-weight: 90px;
-        color: aliceblue;
+        color: #fff;
         padding: 0px;
         margin: 0;
     }
   }
-@media screen and (max-width:900px) {
+@media screen and(max-width:1200px) {
     .SVG{
          
-    width: 100%;
-    height: 1000px;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
-    background-color: rgb(245, 243, 243);
-    margin: 0;
-    padding: 0;
+	    width: 100%;
+	    height: 1200px;
+	    top: 0;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    position: relative;
+	    background-image: linear-gradient(to top, #5a6664, #495b5a, #384f52, #27444b, #163844);
+	    margin: 0;
+	    padding: 0;
   
     }
 
